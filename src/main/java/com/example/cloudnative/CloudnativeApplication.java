@@ -10,4 +10,9 @@ public class CloudnativeApplication {
 		SpringApplication.run(CloudnativeApplication.class, args);
 	}
 
+	@RequestMapping("/")
+	String home() {
+		return "Hello World34!!!!!!";
+	}
+
 }
